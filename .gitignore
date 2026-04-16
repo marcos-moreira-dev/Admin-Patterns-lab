@@ -1,0 +1,60 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.iml
+
+# Java / Maven / JavaFX
+**/target/
+**/out/
+**/build/
+*.class
+*.log
+*.ctxt
+
+# JPackage / installers / runtime images
+**/dist/
+**/app-image/
+**/runtime/
+**/installer/
+**/release/
+*.msi
+*.exe
+*.app
+*.pkg
+*.deb
+*.rpm
+
+# Temporary / archives
+*.tmp
+*.bak
+*.swp
+*.zip
+*.7z
+*.rar
+
+# Environment / secrets
+.env
+.env.*
+*.local
+secrets.properties
+application-local.yml
+application-local.yaml
+application-local.properties
+
+# Reports and generated exports
+exports/
+reports/
+*.pdf
+
+# Keep source assets and docs tracked
+!97_assets/
+!**/src/**
+!**/*.md
+!**/*.fxml
+!**/*.css
+!**/*.java
+!**/pom.xml
+!**/*.bat

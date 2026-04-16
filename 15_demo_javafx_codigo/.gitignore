@@ -1,0 +1,12 @@
+target/
+out/
+build/
+app-image/
+runtime/
+installer/
+release/
+*.msi
+*.exe
+*.log
+*.tmp
+*.pdf
